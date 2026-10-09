@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-labelledby="title desc">
+  <title id="title">Daniel Iravani</title>
+  <desc id="desc">Software, systems and engineering. Dark engineering grid with a copper oscilloscope trace.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8b949e" stroke-opacity=".11" stroke-width="1"/></pattern>
+    <linearGradient id="fade"><stop stop-color="#101720"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+    <clipPath id="clip"><rect width="1100" height="240" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1100" height="240" fill="url(#fade)"/>
+    <rect x="660" width="440" height="240" fill="url(#grid)"/>
+    <path d="M660 120H1066M864 28V211" stroke="#748191" stroke-opacity=".28" stroke-dasharray="3 7"/>
+    <path d="M669 136H715L728 133L740 139L754 111L769 156L786 89L803 170L820 66L837 181L854 82L870 154L887 112L904 134H1049" fill="none" stroke="#d89b66" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="1049" cy="134" r="5" fill="#d89b66"/>
+    <rect x="46" y="44" width="32" height="3" rx="1.5" fill="#d89b66"/>
+    <text x="46" y="103" fill="#f0f4f8" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">Daniel Iravani</text>
+    <text x="48" y="146" fill="#acb8c6" font-family="Arial,Helvetica,sans-serif" font-size="21">Software, systems and engineering</text>
+    <text x="48" y="194" fill="#d89b66" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2.2">QUEEN’S UNIVERSITY · BUILDER &amp; FOUNDER</text>
+  </g>
+</svg>
